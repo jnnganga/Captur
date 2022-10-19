@@ -5,7 +5,10 @@ import Hero from "../components/Hero";
 const contact = () => {
 	return (
 		<div>
-			<Hero heading='My Contact' message='Please reach me @...' />
+			<Hero
+				heading='My Contact'
+				message='Please reach me by submitting form below'
+			/>
 			<Contact />
 		</div>
 	);
